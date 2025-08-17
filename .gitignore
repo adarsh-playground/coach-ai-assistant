@@ -1,0 +1,4 @@
+.DS_Store
+python-react-chat/backend/.zshrc
+python-react-chat/backend/__pycache__/**
+python-react-chat/frontend/node_modules/**
