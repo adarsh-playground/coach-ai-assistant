@@ -5,7 +5,7 @@ Coaches can query for athletes in plain english eg. give me clients with gpa gre
 Environment variables
 export GEMINI_API_KEY=<your geminiapi key>
 
-export DB_USER=#<dbuser>
+export DB_USER={dbuser}
 export DB_PASSWORD=<db password>
 export DB_HOST=<db host>
 export DB_PORT=<db port>
