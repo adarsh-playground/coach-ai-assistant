@@ -3,6 +3,7 @@ Coaches can query for athletes in plain english eg. give me clients with gpa gre
 
 # setup
 Environment variables
+```bash
 export GEMINI_API_KEY=<your geminiapi key>
 
 export DB_USER={dbuser}
@@ -10,9 +11,13 @@ export DB_PASSWORD=<db password>
 export DB_HOST=<db host>
 export DB_PORT=<db port>
 export DB_NAME=<db name>
+```
 
 # run backend
+```bash
 uvicorn main:app --reload --port 8000  
-
+```
 # run frontend
+```bash
 npm start
+```
